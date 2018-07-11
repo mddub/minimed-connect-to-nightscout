@@ -23,7 +23,6 @@
   "dependencies": {
     "common": "0.2.x",
     "lodash": "^4.17.10",
-    "pug": "^2.0.3",
     "request": "^2.87.0"
   },
   "devDependencies": {
