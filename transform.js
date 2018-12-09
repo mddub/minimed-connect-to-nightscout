@@ -119,7 +119,7 @@ module.exports = function(data, sgvLimit) {
       entries: [],
     };
   }
-
+ 
   var offset = guessPumpOffset(data);
   if (sgvLimit === undefined) {
     sgvLimit = Infinity;
