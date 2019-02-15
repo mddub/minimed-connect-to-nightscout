@@ -82,7 +82,7 @@ function deviceStatusEntry(data, offset) {
             'uploader': {
                 'battery': data['medicalDeviceBatteryLevelPercent'],
             },
-            'guardian': {
+            'connect': {
                 // For the values these can take, see:
                 // https://gist.github.com/mddub/5e4a585508c93249eb51
                 'sensorState': data['sensorState'],
@@ -93,6 +93,7 @@ function deviceStatusEntry(data, offset) {
                 'conduitMedicalDeviceInRange': data['conduitMedicalDeviceInRange'],
                 'conduitSensorInRange': data['conduitSensorInRange'],
                 'medicalDeviceBatteryLevelPercent': data['medicalDeviceBatteryLevelPercent'],
+                'medicalDeviceFamily': data['medicalDeviceFamily']
             }
         };
     } else {
