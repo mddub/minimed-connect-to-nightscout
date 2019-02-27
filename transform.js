@@ -83,8 +83,6 @@ function deviceStatusEntry(data, offset) {
                 'battery': data['medicalDeviceBatteryLevelPercent'],
             },
             'connect': {
-                // For the values these can take, see:
-                // https://gist.github.com/mddub/5e4a585508c93249eb51
                 'sensorState': data['sensorState'],
                 'calibStatus': data['calibStatus'],
                 'sensorDurationHours': data['sensorDurationHours'],
