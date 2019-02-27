@@ -56,7 +56,6 @@ function deviceName(data) {
 
 var guessPumpOffset = (function () {
     var lastGuess;
-
     // From my observations, sMedicalDeviceTime is advanced by the server even when the app is
     // not reporting data or the pump is not connected, so its difference from server time is
     // always close to a whole number of hours, and can be used to guess the pump's timezone:
