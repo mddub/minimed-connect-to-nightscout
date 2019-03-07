@@ -1,14 +1,14 @@
 {
-  "name": "minimed-connect-to-nightscout-szymjaw",
-  "version": "0.0.3",
+  "name": "minimed-connect-to-nightscout",
+  "version": "1.1.1",
   "description": "Send Medtronic pump and CGM data to Nightscout.",
   "author": "Mark Wilson <mark@warkmilson.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/szymjaw/minimed-connect-to-nightscout/tree/dev-servers"
+    "url": "https://github.com/mddub/minimed-connect-to-nightscout.git"
   },
   "bugs": {
-    "url": "https://github.com/szymjaw/minimed-connect-to-nightscout/tree/dev-servers/issues"
+    "url": "https://github.com/mddub/minimed-connect-to-nightscout/issues"
   },
   "main": "index.js",
   "scripts": {
