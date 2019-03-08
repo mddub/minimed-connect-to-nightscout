@@ -14,27 +14,27 @@ var CARELINK_TREND_TO_NIGHTSCOUT_TREND = {
   },
   'UP_TRIPLE': {
     'trend': 1,
-    'direction': 'DoubleUp'
+    'direction': 'TripleUp'
   },
   'UP_DOUBLE': {
     'trend': 1,
-    'direction': 'SingleUp'
+    'direction': 'DoubleUp'
   },
   'UP': {
     'trend': 2,
-    'direction': 'FortyFiveUp'
+    'direction': 'SingleUp'
   },
   'DOWN': {
     'trend': 6,
-    'direction': 'FortyFiveDown'
+    'direction': 'SingleDown'
   },
   'DOWN_DOUBLE': {
     'trend': 7,
-    'direction': 'SingleDown'
+    'direction': 'DoubleDown'
   },
   'DOWN_TRIPLE': {
     'trend': 7,
-    'direction': 'DoubleDown'
+    'direction': 'TripleDown'
   }
 };
 
