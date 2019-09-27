@@ -1,6 +1,6 @@
 {
   "name": "minimed-connect-to-nightscout",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "description": "Send Medtronic pump and CGM data to Nightscout.",
   "author": "Mark Wilson <mark@warkmilson.com>",
   "repository": {
@@ -22,12 +22,12 @@
   },
   "dependencies": {
     "common": "^0.2.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "request": "^2.88.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^6.0.2"
+    "mocha": "^6.2.0"
   },
   "keywords": [
     "medtronic",
