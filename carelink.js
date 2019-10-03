@@ -86,6 +86,7 @@ var Client = exports.Client = function (options) {
       reqOptions({
         jar: jar,
         qs: {j_username: options.username, j_password: options.password}
+        form: {j_username: options.username, j_password: options.password, j_character_encoding: "UTF-8"}
       }),
       checkResponseThen(next)
     );
