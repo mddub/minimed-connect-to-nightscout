@@ -1,3 +1,7 @@
+# NO LONGER MAINTAINED
+
+This repo is no longer maintained. Active development continues in the [nightscout/minimed-connect-to-nightscout](https://github.com/nightscout/minimed-connect-to-nightscout) fork.
+
 # minimed-connect-to-nightscout
 
 [![Circle CI](https://circleci.com/gh/mddub/minimed-connect-to-nightscout.svg?style=shield)](https://circleci.com/gh/mddub/minimed-connect-to-nightscout)
